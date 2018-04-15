@@ -1,12 +1,17 @@
 {
   "name": "react-rainbow",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple react component to switch colors",
   "repository": "https://github.com/tducasse/react-rainbow.git",
   "author": "Thibaud Ducasse <thibaud.ducasse@gmail.com>",
   "license": "MIT",
   "main": "build/index.js",
-  "keywords": ["react", "color", "switch", "random"],
+  "keywords": [
+    "react",
+    "color",
+    "switch",
+    "random"
+  ],
   "scripts": {
     "precommit": "pretty-quick staged",
     "build": "babel lib -d build",
