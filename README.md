@@ -32,7 +32,7 @@ It takes the following properties:
 
 All the examples are available at [tducasse.github.io/react-rainbow](https://tducasse.github.io/react-rainbow/) and in the `/docs` folder.
 
-```
+```javascript
 const RainbowButton = props => (
   <Rainbow {...props}>
     {(color, onClick) => {
