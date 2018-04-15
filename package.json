@@ -6,12 +6,7 @@
   "author": "Thibaud Ducasse <thibaud.ducasse@gmail.com>",
   "license": "MIT",
   "main": "build/index.js",
-  "keywords": [
-    "react",
-    "color",
-    "switch",
-    "random"
-  ],
+  "keywords": ["react", "color", "switch", "random"],
   "scripts": {
     "precommit": "pretty-quick staged",
     "build": "babel lib -d build",
