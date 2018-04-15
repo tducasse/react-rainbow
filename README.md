@@ -20,14 +20,20 @@ npm i react-rainbow
 
 The component uses render props, this means that it only takes care of the logic, and it's up to you to choose how you will display the result.
 
+Just import it with:
+
+```
+import Rainbow from 'react-rainbow'
+```
+
 It takes the following properties:
 
-| Property | Type | Usage |
-| ---- | ---- | ---- |
-| colors | Optional. An array of strings. Each string must be a valid CSS color. Example: ['red', '#ffffff'] | If provided, the component will switch randomly between these colors. Otherwise, it will just generate a new valid color everytime you switch. |
-| ordered | Optional. Boolean. Defaults to false. | If `true`, the component will follow the original array order when switching. |
-| initial | Optional. String. Defaults to 'white'. Must be a valid CSS color. | Color that will be active the first time the component is rendered. |
-| children | React component | This component will be given 2 props: the current active color, and a callback allowing you to switch the active color.
+| Property | Type                                                                                              | Usage                                                                                                                                          |
+| -------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| colors   | Optional. An array of strings. Each string must be a valid CSS color. Example: ['red', '#ffffff'] | If provided, the component will switch randomly between these colors. Otherwise, it will just generate a new valid color everytime you switch. |
+| ordered  | Optional. Boolean. Defaults to false.                                                             | If `true`, the component will follow the original array order when switching.                                                                  |
+| initial  | Optional. String. Defaults to 'white'. Must be a valid CSS color.                                 | Color that will be active the first time the component is rendered.                                                                            |
+| children | React component                                                                                   | This component will be given 2 props: the current active color, and a callback allowing you to switch the active color.                        |
 
 ## Examples
 

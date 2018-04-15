@@ -1,4 +1,4 @@
-import { Rainbow } from '../lib';
+import Rainbow from '../lib';
 import React from 'react';
 
 const RainbowButton = props => (
