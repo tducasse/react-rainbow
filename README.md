@@ -31,7 +31,7 @@ It takes the following properties:
 
 ## Examples
 
-All the examples are available at [tducasse.github.io/react-rainbow](https://tducasse.github.io/react-rainbow/) and in the `/docs` folder.
+All the examples are available at [tducasse.github.io/react-rainbow](https://tducasse.github.io/react-rainbow/) and in the `/stories` folder.
 
 ```javascript
 const RainbowButton = props => (
