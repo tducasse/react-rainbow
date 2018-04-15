@@ -1,0 +1,37 @@
+{
+  "name": "react-rainbow",
+  "version": "0.1.0",
+  "description": "A simple react component to switch colors",
+  "repository": "https://github.com/tducasse/react-rainbow.git",
+  "author": "Thibaud Ducasse <thibaud.ducasse@gmail.com>",
+  "license": "MIT",
+  "main": "build/index.js",
+  "scripts": {
+    "precommit": "pretty-quick staged",
+    "build": "babel lib -d build",
+    "build:watch": "babel lib -w -d build",
+    "prepublishOnly": "npm run build",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "build-storybook": "build-storybook -c .storybook -o docs"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.3.15",
+    "@types/react": "^16.0.40",
+    "@types/react-dom": "^16.0.4",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.18.2",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-react": "^7.7.0",
+    "husky": "^0.14.3",
+    "prettier": "^1.11.1",
+    "pretty-quick": "^1.4.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
