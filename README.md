@@ -2,6 +2,8 @@
 
 A simple React component that switches colors, using render props.
 
+Mostly built as a way to test [tducasse/react-component-boilerplate](https://github.com/tducasse/react-component-boilerplate)...
+
 Ever wondered how to switch colors easily from a list of colors, or even randomly? This component is for you!
 
 ## Demo
